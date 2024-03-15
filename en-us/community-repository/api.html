@@ -10,21 +10,21 @@ gtag('config', 'G-0WDD29GGN2');
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Information on Test-ProcessAdminRights function">
+        <meta name="description" content="Information about querying the Chocolatey Community Repository API.">
         <meta name="twitter:site" content="@chocolateynuget">
-        <meta name="twitter:title" content="Chocolatey Software Docs | Test-ProcessAdminRights">
+        <meta name="twitter:title" content="Chocolatey Software Docs | API Querying">
             <meta name="twitter:card" content="summary">
             <meta name="twitter:image" content="https://docs.chocolatey.org/assets/images/global-shared/twitter-share.png">
-        <meta property="og:title" content="Chocolatey Software Docs | Test-ProcessAdminRights">
-        <meta property="og:description" content="Information on Test-ProcessAdminRights function">
+        <meta property="og:title" content="Chocolatey Software Docs | API Querying">
+        <meta property="og:description" content="Information about querying the Chocolatey Community Repository API.">
         <meta property="og:site_name" content="Chocolatey Software">
         <meta property="og:type" content="product">
         <meta property="og:image" content="https://docs.chocolatey.org/assets/images/global-shared/facebook-share.png">
-        <meta property="og:url" content="https://docs.chocolatey.org/en-us/create/functions/test-processadminrights">
+        <meta property="og:url" content="https://docs.chocolatey.org/en-us/community-repository/api">
         <meta property="product:brand" content="Chocolatey Software">
         <meta property="product:category" content="software">
         <meta name="flattr:id" content="mqgjkp">
-        <meta property="DC.title" content="Chocolatey Software Docs | Test-ProcessAdminRights">
+        <meta property="DC.title" content="Chocolatey Software Docs | API Querying">
         <meta property="copyright" content="Chocolatey is Copyright 2020 - 2024 Chocolatey Software,Inc.">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -41,7 +41,7 @@ gtag('config', 'G-0WDD29GGN2');
         <link rel="stylesheet" href="/assets/css/chocolatey.bundle.min.css">
         <script type="text/javascript" src="/assets/js/chocolatey-head.bundle.min.js"></script>
         <script type="text/javascript" async="" referrerpolicy="unsafe-url" src="https://ws.zoominfo.com/pixel/KPKpTJOFOv5SuV7X3eGx"></script>
-        <title>Chocolatey Software Docs | Test-ProcessAdminRights</title>
+        <title>Chocolatey Software Docs | API Querying</title>
     </head>
     <body class="chocolatey-docs">
         <header>
@@ -251,18 +251,18 @@ gtag('config', 'G-0WDD29GGN2');
                                                     <li class="nav-item nav-item-blue">
                                                         <a class="nav-link ps-c2" href="/en-us/chocolatey-components-dependencies-and-support-lifecycle">Chocolatey Components Dependencies and Support Lifecycle</a>
                                                     </li>
-                                                    <li class="nav-item nav-item-blue">
-                                                        <div class="nav-link nav-link-collapse d-flex">
-                                                            <button class="btn btn-collapse rounded-0 border-0 ps-3 collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="id-75809a3e-bb0f-4e97-a803-d41f040db3d8" aria-label="collapse or expand navigation" href="#id-75809a3e-bb0f-4e97-a803-d41f040db3d8"></button>
+                                                    <li class="nav-item nav-item-blue active">
+                                                        <div class="nav-link nav-link-collapse d-flex active">
+                                                            <button class="btn btn-collapse rounded-0 border-0 ps-3" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="id-75809a3e-bb0f-4e97-a803-d41f040db3d8" aria-label="collapse or expand navigation" href="#id-75809a3e-bb0f-4e97-a803-d41f040db3d8"></button>
                                                             <a href="/en-us/community-repository">Chocolatey Community Repository (CCR)</a>
                                                         </div>
-                                                        <div class="collapse" id="id-75809a3e-bb0f-4e97-a803-d41f040db3d8">
+                                                        <div class="collapse show" id="id-75809a3e-bb0f-4e97-a803-d41f040db3d8">
                                                             <ul class="navbar-nav">
                                                                         <li class="nav-item">
                                                                             <a class="nav-link ps-5" href="/en-us/community-repository/community-packages-disclaimer">community.chocolatey.org Packages Disclaimer</a>
                                                                         </li>
                                                                         <li class="nav-item">
-                                                                            <a class="nav-link ps-5" href="/en-us/community-repository/api">API Querying</a>
+                                                                            <a class="nav-link ps-5 active active-page" href="/en-us/community-repository/api">API Querying</a>
                                                                         </li>
                                                                         <li class="nav-item">
                                                                             <a class="nav-link ps-5" href="/en-us/community-repository/script-builder">Script Builder</a>
@@ -1509,12 +1509,12 @@ gtag('config', 'G-0WDD29GGN2');
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="nav-item nav-item-blue active">
-                                                        <div class="nav-link nav-link-collapse d-flex active">
-                                                            <button class="btn btn-collapse rounded-0 border-0 ps-3" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2" aria-label="collapse or expand navigation" href="#id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2"></button>
+                                                    <li class="nav-item nav-item-blue">
+                                                        <div class="nav-link nav-link-collapse d-flex">
+                                                            <button class="btn btn-collapse rounded-0 border-0 ps-3 collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2" aria-label="collapse or expand navigation" href="#id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2"></button>
                                                             <a href="/en-us/create">Package Creation</a>
                                                         </div>
-                                                        <div class="collapse show" id="id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2">
+                                                        <div class="collapse" id="id-cd3d2ca8-b8ec-416a-a818-e3c01ec14ae2">
                                                             <ul class="navbar-nav">
                                                                         <li class="nav-item">
                                                                             <a class="nav-link ps-5" href="/en-us/create/create-packages">Create Packages</a>
@@ -1554,11 +1554,11 @@ gtag('config', 'G-0WDD29GGN2');
                                                                             <a class="nav-link ps-5" href="/en-us/create/package-dependencies">Package Dependencies in Chocolatey</a>
                                                                         </li>
                                                                         <li class="nav-item">
-                                                                            <div class="nav-link nav-link-collapse d-flex active">
-                                                                                <button class="btn btn-collapse rounded-0 border-0 ps-c2" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="id-d1ae9628-ede1-4f15-878e-e66f5c203fa1" aria-label="collapse or expand navigation" href="#id-d1ae9628-ede1-4f15-878e-e66f5c203fa1"></button>
+                                                                            <div class="nav-link nav-link-collapse d-flex">
+                                                                                <button class="btn btn-collapse rounded-0 border-0 ps-c2 collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="id-d1ae9628-ede1-4f15-878e-e66f5c203fa1" aria-label="collapse or expand navigation" href="#id-d1ae9628-ede1-4f15-878e-e66f5c203fa1"></button>
                                                                                 <a href="/en-us/create/functions">PowerShell Reference</a>
                                                                             </div>
-                                                                            <div class="collapse show" id="id-d1ae9628-ede1-4f15-878e-e66f5c203fa1">
+                                                                            <div class="collapse" id="id-d1ae9628-ede1-4f15-878e-e66f5c203fa1">
                                                                                 <ul class="navbar-nav">
                                                                                             <li class="nav-item">
                                                                                                 <a class="nav-link ps-c4" href="/en-us/create/functions/format-filesize">Format-FileSize</a>
@@ -1672,7 +1672,7 @@ gtag('config', 'G-0WDD29GGN2');
                                                                                                 <a class="nav-link ps-c4" href="/en-us/create/functions/start-chocolateyprocessasadmin">Start-ChocolateyProcessAsAdmin</a>
                                                                                             </li>
                                                                                             <li class="nav-item">
-                                                                                                <a class="nav-link ps-c4 active active-page" href="/en-us/create/functions/test-processadminrights">Test-ProcessAdminRights</a>
+                                                                                                <a class="nav-link ps-c4" href="/en-us/create/functions/test-processadminrights">Test-ProcessAdminRights</a>
                                                                                             </li>
                                                                                             <li class="nav-item">
                                                                                                 <a class="nav-link ps-c4" href="/en-us/create/functions/uninstall-binfile">Uninstall-BinFile</a>
@@ -1915,14 +1915,13 @@ gtag('config', 'G-0WDD29GGN2');
                         </div>
                         <div class="col-md-9 col-xl-10 py-3 py-md-5 px-md-4 mx-auto">
                             <div class="container d-xl-none">
-                                <h1 class="title">Test-ProcessAdminRights</h1>                 
+                                <h1 class="title">API Querying</h1>                 
 <nav aria-label="breadcrumb">
 	<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="/en-us">Chocolatey</a></li>
-			<li class="breadcrumb-item"><a href="/en-us/create">Package Creation</a></li>
-			<li class="breadcrumb-item"><a href="/en-us/create/functions">PowerShell Reference</a></li>
+			<li class="breadcrumb-item"><a href="/en-us/community-repository">Chocolatey Community Repository (CCR)</a></li>
 		
-		<li class="breadcrumb-item active" aria-current="page">Test-ProcessAdminRights</li>
+		<li class="breadcrumb-item active" aria-current="page">API Querying</li>
 	</ol>
 </nav>
 
@@ -1931,64 +1930,111 @@ gtag('config', 'G-0WDD29GGN2');
                                 <div class="row">
                                     <div id="mainContent" class="anchorjs-container col-xl-10 order-2 order-xl-1">
                                         <div class="d-none d-xl-block">
-                                            <h1 class="title">Test-ProcessAdminRights</h1>                 
+                                            <h1 class="title">API Querying</h1>                 
 <nav aria-label="breadcrumb">
 	<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="/en-us">Chocolatey</a></li>
-			<li class="breadcrumb-item"><a href="/en-us/create">Package Creation</a></li>
-			<li class="breadcrumb-item"><a href="/en-us/create/functions">PowerShell Reference</a></li>
+			<li class="breadcrumb-item"><a href="/en-us/community-repository">Chocolatey Community Repository (CCR)</a></li>
 		
-		<li class="breadcrumb-item active" aria-current="page">Test-ProcessAdminRights</li>
+		<li class="breadcrumb-item active" aria-current="page">API Querying</li>
 	</ol>
 </nav>
 
                                         </div>
-                                        <h1 id="test-processadminrights">Test-ProcessAdminRights</h1>
-<!-- This documentation is automatically generated from https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/helpers/functions/Test-ProcessAdminRights.ps1 using https://github.com/chocolatey/choco/blob/master/GenerateDocs.ps1. Contributions are welcome at the original location(s). -->
-<p>Tests whether the current process is running with administrative rights.</p>
-<h2 id="syntax">Syntax</h2>
-<pre><code class="language-powershell">Test-ProcessAdminRights
-</code></pre>
-<h2 id="description">Description</h2>
-<p>This function checks whether the current process has administrative
-rights by checking if the current user identity is a member of the
-Administrators group. It returns <code>$true</code> if the current process is
-running with administrative rights, <code>$false</code> otherwise.</p>
-<p>On Windows Vista and later, with UAC enabled, the returned value
-represents the actual rights available to the process, e.g. if it
-returns <code>$true</code>, the process is running elevated.</p>
-<h2 id="aliases">Aliases</h2>
-<p>None</p>
-<h2 id="inputs">Inputs</h2>
-<p>None</p>
-<h2 id="outputs">Outputs</h2>
-<ul>
-<li>System.Boolean</li>
-</ul>
-<h2 id="parameters">Parameters</h2>
-<p><a href="/en-us/create/functions">Function Reference</a></p>
+                                        <p>The Chocolatey Community Repository provides an API to allow package queries to be made, and results to be provided.
+We hope to be able to answer your questions on what is supported and what is not supported, and on the acceptable ways that you can query the repository.</p>
+<h2 id="api-protocol">API Protocol</h2>
 <blockquote>
 <p>:choco-info: <strong>NOTE</strong></p>
-<p>This documentation has been automatically generated from <code>Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force; Get-Help Test-ProcessAdminRights -Full</code>.</p>
+<p>Chocolatey CLI and <code>chocolatey.lib</code> versions 1.x and earlier, used NuGet v2 OData Core libraries.</p>
 </blockquote>
-<p>View the source for <a href="https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/helpers/functions/Test-ProcessAdminRights.ps1">Test-ProcessAdminRights</a></p>
+<p>The Chocolatey Community Repository uses the v2 OData protocol for queries, utilizing the NuGet v2 OData specification, where it is defined. Unfortunately, NuGet v2 OData specification is only loosely defined so one OData endpoint <em>may</em> respond with different results to another, if it responds at all.</p>
+<p>Chocolatey CLI and <code>chocolatey.lib</code> use the NuGet v2 OData Client libraries to query, and process requests from, the Chocolatey Community Repository.</p>
+<h2 id="supported-api-query-tools">Supported API Query Tools</h2>
+<p>We only support the following tools to query the Chocolatey Community Repository API:</p>
+<ul>
+<li><a href="/en-us/choco">Chocolatey CLI</a></li>
+<li><a href="https://www.nuget.org/packages/chocolatey.lib"><code>chocolatey.lib</code></a></li>
+</ul>
+<p>While you may create your own queries, and get results, this is not supported and may break in the future. Your own queries working today, are not guaranteed to work in the future. To guard against this happening, only use the supported methods above, to query the Chocolatey Community Repository.</p>
+<h3 id="chocolatey-cli-machine-readable-output">Chocolatey CLI Machine Readable Output</h3>
+<p>To get machine-readable output when querying the Chocolatey Community Repository using Chocolatey CLI, use the <code>--limit-output</code> command line option. See our documentation for more information on <a href="/en-us/choco/commands#scripting-integration-best-practices-style-guide">scripting and best practices</a>.</p>
+<p>For example, to search for all packages containing the word <code>kitty</code>:</p>
+<pre><code class="language-powershell">PS&gt; choco search kitty
+Chocolatey v2.2.2
+kitty 0.76.1.13 [Approved]
+kitty.portable 0.67.0 [Approved]
+superputty 1.5.0 [Approved]
+superputty.install 1.5.0 [Approved]
+superputty.portable 1.5.0 [Approved]
+5 packages found.
+</code></pre>
+<p>For the same query, but with machine-readable output:</p>
+<pre><code class="language-powershell">PS&gt; choco search kitty --limit-output
+kitty|0.76.1.13
+kitty.portable|0.67.0
+superputty|1.5.0
+superputty.install|1.5.0
+superputty.portable|1.5.0
+</code></pre>
+<p>You can easily parse the output to get a PowerShell object:</p>
+<pre><code class="language-powershell">PS&gt; choco search kitty --limit-output | ConvertFrom-CSV -Delimiter '|' -Header 'Name','Version'
+
+Name                Version
+----                -------
+kitty               0.76.1.13
+kitty.portable      0.67.0
+superputty          1.5.0
+superputty.install  1.5.0
+superputty.portable 1.5.0
+</code></pre>
+<h2 id="querying">Querying</h2>
+<p>While we only support querying the Chocolatey Community Repository with <a href="#supported-api-query-tools">these tools</a>, there will be people who create their own queries.
+We don't recommend this, but want to ensure if you are doing it, you do it safely.</p>
+<h3 id="item-limit">Item Limit</h3>
+<p>The total number of items returned from any query is limited to 10,000. This also affects paging. Attempting to retrieve item 10,001 will return an error of HTTP Status Code <code>406 - Not Acceptable</code>.</p>
+<p>Note that this affects both manual queries and queries made through Chocolatey CLI, Chocolatey GUI, and <code>chocolatey.lib</code>.</p>
+<p>This will be unlikely to affect the vast majority of users and will be limited to customers or community members who are retrieving a list of all packages, or paging through all packages, rather than searching for specific ones. If you have a legitimate need to regularly retrieve a full list of packages, please reach out to us on <a href="https://ch0.co/community">Community Chat</a>.</p>
+<h3 id="using-the-orderby-parameter">Using the <code>orderby</code> Parameter</h3>
+<p>The following <code>orderby</code> parameters can be used to sort the results before they are returned:</p>
+<ul>
+<li><code>DownloadCount</code></li>
+<li><code>Published</code></li>
+<li><code>Id</code></li>
+<li><code>Title</code></li>
+<li><code>Version</code></li>
+</ul>
+<p>If an unsupported <code>orderby</code> parameter is used, an HTTP Status Code <code>406 - Not Acceptable</code> response will be returned.</p>
+<p>An optional direction, <code>asc</code> for ascending, or <code>desc</code> for descending can be used with <code>orderby</code> parameters, for example <code>orderby=Version desc</code>.</p>
+<h3 id="filtering">Filtering</h3>
+<p>Filtering should only be done using a <a href="#supported-api-query-tools">supported tool</a> as there are too many filters and options to list here.</p>
+<p>And herein lies the problem.</p>
+<p>Because there are so many filters and options, an attempt is made to parse them and return results.
+However, because of the complex nature of the queries, it may return an empty result, nothing or an HTTP Status Code <code>406 - Not Acceptable</code>.</p>
+<p>Any filter that is used more than once in the query, will return an HTTP Status Code <code>406 - Not Acceptable</code>.</p>
+<h3 id="getupdates-endpoint"><code>GetUpdates</code> Endpoint</h3>
+<p>The <code>GetUpdates</code> endpoint is not supported and any call to it will return an HTTP Status code of <code>410 - Gone</code>.</p>
+<h2 id="questions">Questions?</h2>
+<p>If you are using a <a href="#supported-api-query-tools">supported tool</a> and have questions about queries, please reach out to us on <a href="https://ch0.co/community">Community Chat</a>.</p>
 
                                     </div>
                                             <div id="rightSidebarNav" class="col-xl-2 ps-xl-3 order-1 order-xl-2">
                                                 <button class="btn btn-link btn-collapse fw-bold w-100 d-xl-none mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#rightSidebar" aria-expanded="false" aria-controls="rightSidebar">Jump to Section</button>
                                                 <div id="rightSidebar" class="sticky-xl-top collapse collapse-lg">
                                                     <div class="card card-body py-0 px-xl-0 mb-3 border-0">
-                                                            <p class="fw-bold pt-3"><a href="https://github.com/chocolatey/docs/edit/master/input/en-us/create/functions/test-processadminrights.md"><i class="fa-solid fa-pencil" aria-hidden="true"></i> Edit This Page</a></p>
+                                                            <p class="fw-bold pt-3"><a href="https://github.com/chocolatey/docs/edit/master/input/en-us/community-repository/api.md"><i class="fa-solid fa-pencil" aria-hidden="true"></i> Edit This Page</a></p>
                                                             <hr class="m-0">
                                                         <p class="fw-bold pt-3 mb-2">On This Page</p>
                                                         <ul class="nav nav-scrollspy flex-column pb-3">
-                                                                <li class="nav-item"><a class="nav-link d-none" href="#test-processadminrights">Test-ProcessAdminRights</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#syntax">Syntax</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#description">Description</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#aliases">Aliases</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#inputs">Inputs</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#outputs">Outputs</a></li>
-                                                                <li class="nav-item"><a class="nav-link " href="#parameters">Parameters</a></li>
+                                                                <li class="nav-item"><a class="nav-link " href="#api-protocol">API Protocol</a></li>
+                                                                <li class="nav-item"><a class="nav-link " href="#supported-api-query-tools">Supported API Query Tools</a></li>
+                                                                <li class="nav-item"><a class="nav-link ps-4" href="#chocolatey-cli-machine-readable-output">Chocolatey CLI Machine Readable Output</a></li>
+                                                                <li class="nav-item"><a class="nav-link " href="#querying">Querying</a></li>
+                                                                <li class="nav-item"><a class="nav-link ps-4" href="#item-limit">Item Limit</a></li>
+                                                                <li class="nav-item"><a class="nav-link ps-4" href="#using-the-orderby-parameter">Using the orderby Parameter</a></li>
+                                                                <li class="nav-item"><a class="nav-link ps-4" href="#filtering">Filtering</a></li>
+                                                                <li class="nav-item"><a class="nav-link ps-4" href="#getupdates-endpoint">GetUpdates Endpoint</a></li>
+                                                                <li class="nav-item"><a class="nav-link " href="#questions">Questions?</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
