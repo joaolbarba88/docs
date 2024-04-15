@@ -1,2 +1,0 @@
-<!-- Edit this file at https://github.com/chocolatey/choco-theme/partials -->
-Last updated 01 January 2021
